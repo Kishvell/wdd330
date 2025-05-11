@@ -1,0 +1,28 @@
+{
+  "quiz": [
+    {
+      "question": "What is the primary purpose of the W01 Activity: Team Project Setup?",
+      "options": [
+        "To complete the entire project individually",
+        "To set up the team project asynchronously using the required tools and technology",
+        "To submit the final project for grading",
+        "To create a new project unrelated to the course"
+      ],
+      "answer": [1],
+      "explanation": "The purpose of the W01 Activity is to set up the team project asynchronously using the required course tools and technology.",
+      "type": "singleSelect"
+    },
+    {
+      "question": "What is the name of the course's learning project mentioned in the W01 Activity?",
+      "options": [
+        "Sleep Outside",
+        "Team Collaboration",
+        "Outdoor Adventures",
+        "Project Setup"
+      ],
+      "answer": [0],
+      "explanation": "The course's learning project is called 'Sleep Outside,' as mentioned in the instructions.",
+      "type": "singleSelect"
+    }
+  ]
+}
