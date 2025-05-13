@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.add-to-cart-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+#cart-list {
+    list-style: none;
+    padding: 0;
+}
