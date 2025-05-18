@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tent-1",
+    "image": "images/tent-2.jpg",
+    "brand": "Cedar Ridge",
+    "name": "Rimrock 2",
+    "price": 120
+  },
+  {
+    "id": "tent-2",
+    "image": "images/tent-2.jpg",
+    "brand": "Marmot",
+    "name": "Ajax 3",
+    "price": 150
+  }
+]
