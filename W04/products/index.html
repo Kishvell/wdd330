@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem;
+        }
+
+        .filter {
+            margin-bottom: 1rem;
+        }
+
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Products</h1>
+
+    <div class="filter">
+        <label for="categoryFilter">Filter by Category: </label>
+        <select id="categoryFilter">
+            <option value="All">All</option>
+            <option value="Camping">Camping</option>
+            <option value="Hiking">Hiking</option>
+        </select>
+    </div>
+
+    <div id="productGrid"></div>
+
+    <script type="module" src="../js/product-filter.mjs"></script>
+</body>
+
+</html>
