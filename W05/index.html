@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Snippet Library</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <h1>UI Snippet Library</h1>
+        <input type="text" id="search" placeholder="Search snippets..." aria-label="Search snippets">
+    </header>
+
+    <main id="app">
+        <section id="featured" class="featured">
+            <h2>Featured Snippets</h2>
+            <div class="grid" id="featured-grid"></div>
+        </section>
+
+        <section id="library-section">
+            <h2>All Components</h2>
+            <div class="grid" id="library"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 UI Snippet Library | Designed by Santiago Irigoyen</p>
+    </footer>
+
+    <!-- Template for cards -->
+    <template id="card-template">
+        <article class="card">
+            <div class="preview-thumb"></div>
+            <h3 class="title"></h3>
+            <p class="tags"></p>
+            <div class="actions">
+                <button class="open">Preview</button>
+                <button class="copy">Copy Code</button>
+            </div>
+        </article>
+    </template>
+
+    <!-- Modal for preview -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <button id="close-modal" class="close">&times;</button>
+            <h3 id="modal-title"></h3>
+            <iframe id="preview-frame" title="Snippet preview"></iframe>
+        </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
